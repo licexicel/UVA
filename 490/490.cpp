@@ -11,8 +11,6 @@
 #include <cstring>
 using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-   // std::cout << "Hello, World!\n";
     string input;
     char arr[101][101];
     int len[101];
@@ -23,25 +21,17 @@ int main(int argc, const char * argv[]) {
         len[count] = input.length();
     
         for(int i = 0;i<input.length();i++){
-            arr[count][i]=input[i];
-            
-            
+            arr[count][i]=input[i];     
         }
         arr[count][input.length()]='^';
         count++;
-        
-        
     }
     
     for(int i = 0 ; i < 100 ;i++){
         for(int j = count;j>=0;j--){
             if(arr[j][i] != '^'){
                 cout<<arr[j][i];
-            }
-            
-                
-        
-            
+            }        
         }
         cout << endl;
     }
