@@ -1,9 +1,11 @@
 # 490
-題目要求一行一行輸入，
+Request:
 
-然後反過來輸出
+exchange the row and column
 
-例：
+and the lastest input output first.
+
+ex：
 
 input:
 
@@ -26,6 +28,7 @@ VFR
 B  T
 
 N  Y
+
 
 我的做法是一行一行讀入二維陣列，
 
