@@ -1,1 +1,2 @@
-10420 <INPUT.txt> OUTPUT.txt
+10222 <INPUT.txt> OUTPUT.txt
+cd /d d:
